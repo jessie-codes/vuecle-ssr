@@ -1,0 +1,37 @@
+[{
+    "slug": "vuejs-demonstration",
+    "title": "VueJS demonstration",
+    "description": "<p>Overview of the VueJS framework covering: reactivity, components, asynchronous data, events, debugging, building, deploying, routing, and user interface options. Modules to be mentioned include: vue-router, vuex, vuetify, bootstrap-vue.</p>"
+}, {
+    "slug": "getting-started-with-vue-cli-3",
+    "title": "Getting Started with Vue CLI 3",
+    "description": "<p>The Vue CLI has always been the easiest and fastest way to create Vue applications. Recently the Vue team announced the release of Vue CLI 3.0 which was a major rewrite of this already amazing tool.</p><p>The Vue Command Line Interface (CLI) is a tool that allows you to configure some options about your project and scaffold out everything you need to get started. In this presentation, we will talk all about what the CLI can do, walk through the generated code and together we will build our first VueJS application.</p><p>Not comfortable with the command line? The Vue CLI 3 ships with a full-blown GUI that not only create new projects, but also manages the plugins and tasks inside your project.</p><p>I really look forward to our first meetup together and I hope you’re all as excited as I am to geek out over Vue.</p>"
+}, {
+    "slug": "new-york-times-api",
+    "title": "Using Vue to work with the New York Times API",
+    "description": "<p>In this presentation Greg will show how you can use Vue to get data from the New York Times API, display the results to your users, and post data back to a local DB about the users thoughts on the articles. In his demo he will be getting data from the NYT Movies Critic API and posting the critics name and short summary to the page. He will then allow users to click a pair of buttons on whether this review was helpful or not. The data from those clicks will be posted to our local MYSQL db.</p><p>He will be using Laravel and will spend the first 5 minutes kind of explaining Laravel, why I use it, and a brief shout out to Lumen, Laravel's step brother, which is perfect for crafting simple API backends.</p>",
+    "speaker": "Greg Lindeman",
+    "bio": "<p>Greg Lindeman is a self taught / coding-bootcamp survivor. After graduating from Texas Tech in 2012 as a triple major (History/Political Science/Psychology) I went off to work abroad in Suzhou, China for three years. While in Suzhou I taught myself how to program in Python. Loving this new world I entered, I decided to head to Akron to attend the Software Guild and attend the Java bootcamp. After graduating I went back to China to work as a web developer for 31ten in Shanghai working mostly in PHP.</p><p>Since 2016 I have been working at Jakprints as one of the Software developers on the team. I also work at the Case Western Reserve University Coding Bootcamp as a TA for the Part Time Full Stack Flex program, which focuses on Javascript, Node, and React.Today I mostly find myself working in PHP, C#, vue.js and d3.js. However on my free time I am learning Artificial Intelligence with Python.</p>"
+}, {
+    "slug": "custom-elements",
+    "title": "Create Your Own HTML Tags with Vue and Custom Elements",
+    "description": "<p>While many applications have moved to a full front-end SPA, there are still plenty of sites that will never be full JavaScript applications. Does that mean they can't join the modern JavaScript party? Will they forever be left out of the fancy JavaScript parade?</p><p>No! You don't have to adopt an entire JavaScript framework to add component functionality to your traditional website or blog. You can instead use the Web Component standard to create your very own HTML tags with all of the power and tooling of Vue backing it up. This talk will show how you can create our own, dynamic HTML tags using the Custom Elements standard built into all major browsers and the Vue JavaScript framework. Attendees will learn how to create encapsulated JavaScript components that can then be compiled into Custom Elements and included on any web page, SPA or not.</p>",
+    "speaker": "Joe Erickson",
+    "bio": "<p>Joe Erickson is a web programmer that has been building internet applications for Fortune 100 and small businesses alike for over 20 years. He has built production ready applications in Java, PHP, Perl, C++, Ruby, and JavaScript. Joe is a curriculum developer at Tech Elevator in Cleveland, OH.</p>"
+}, {
+    "slug": "microsoft-sharepoint",
+    "title": "Creating Vue applications that leverage Microsoft Sharepoint",
+    "description": "<p>Many organizations use SharePoint as an enterprise content and document management platform. There are some interesting ways to use Vue as a front-end UI development framework while still leveraging the hosting, security, user identity and database features of SharePoint.</p><p>This presentation will demonstrate how to deploy apps built with the Vue-cli to a SharePoint site, make calls to the SharePoint REST API to perform CRUD operations on lists and libraries, identify users, and restrict access to content or sections of the site.</p>",
+    "speaker": "Ben Hoffmann",
+    "bio": "<p>Ben Hoffmann is the Digital Lead for the EY Strategy & Analysis team, which develops strategy, competitive intelligence, financial planning and analytics for the firm. Ben has worked at EY in a variety of capacities including web development, marketing technology and creative agency management.</p>"
+}, {
+    "slug": "show-tell",
+    "title": "Vue Show & Tell",
+    "description": "<p>Join us for an evening full of lightning talks. In this meetup we will do a series of lightning talks lasting from 5-10 minutes on something cool related to Vue. This could be a project you're working on at work or in your spare time. This could be something as small as a library or a personal site you built for yourself. The idea of this is to show off something that you are excited about so that others might learn about something new or get inspired to build something themselves.</p>"
+}, {
+    "slug": "ssr-nuxt",
+    "title": "Server Side Rendering with Nuxt.js",
+    "description": "<p>SSR (server-side rendering) is an important strategy for improving SEO, optimizing page performance, and minimizing data usage of web applications; however, implementing SSR on your own can be a tedious task.</p><p>In this session, we’ll look into Nuxt, an opinionated framework built on top of Vue and Vuex. With a couple of caveats, Nuxt will allow you to create applications that support SSR the same way you would write a SPA application. We’ll go over how to get up and running with Nuxt, configuring your application for SSR, and how to generate pre-rendered static sites.</p>",
+    "speaker": "Jessie Barnett",
+    "bio": "<p>Jessie Barnett is a Senior Fullstack Engineer and the technical lead for frontend development at Axuall, Inc. Jessie developed a passion for programming after teaching herself HTML, CSS, and JavaScript to make her own Sailor Moon fansite in fifth grade. She began her professional career as an engineer 8 years ago, and primarily works with Golang, Node, and Vue.</p>"
+}]
