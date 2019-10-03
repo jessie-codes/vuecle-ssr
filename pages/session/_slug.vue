@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <Card :title="title" :description="description" :author="author" :bio="bio" />
+    <Card :session="session" :speaker="speaker" />
   </section>
 </template>
 
@@ -11,19 +11,21 @@ export default {
   components: {
     Card
   },
-  async asyncData ({ params }) {
-    const base = {
-      title: 'Session Not Found',
-      description: 'Session Not Found',
-      author: '',
-      bio: ''
+  computed: {
+    speaker () {
+      return this.$store.state.speakers.filter(s => s.id === this.session.speaker)[0]
     }
+  },
+  async asyncData ({ params }) {
     try {
       const { data } = await axios.get(`http://localhost:3000/api/session/${params.slug}`)
-      return Object.assign({}, base, data)
+      return { session: data }
     } catch (err) {
-      return base
+      return { session: {} }
     }
+  },
+  async fetch ({ store }) {
+    await store.dispatch('getSpeakers')
   }
 }
 </script>

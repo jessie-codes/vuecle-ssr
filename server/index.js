@@ -2,6 +2,7 @@ const consola = require('consola')
 const Hapi = require('@hapi/hapi')
 const HapiNuxt = require('@nuxtjs/hapi')
 const sessions = require('./sessions.json')
+const speakers = require('./speakers.json')
 
 async function start () {
   const server = new Hapi.Server({
@@ -18,7 +19,9 @@ async function start () {
     method: 'GET',
     path: '/api/session',
     handler: (request, h) => {
-      return sessions
+      return sessions.map(({ slug, title }) => {
+        return { slug, title }
+      })
     }
   })
 
@@ -29,6 +32,14 @@ async function start () {
       return sessions.filter((s) => {
         return s.slug === request.params.slug
       })[0]
+    }
+  })
+
+  server.route({
+    method: 'GET',
+    path: '/api/speaker',
+    handler: (request, h) => {
+      return speakers
     }
   })
 

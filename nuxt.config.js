@@ -22,14 +22,14 @@ module.exports = {
   ],
   router: {
     middleware: 'sessions'
-  },
-  generate: {
-    routes: () => {
-      return axios.get('http://localhost:3000/api/session').then(({ data }) => {
-        return data.map((session) => {
-          return `/session/${session.slug}`
-        })
-      })
-    }
   }
+  // generate: {
+  //   routes: () => {
+  //     return axios.get('http://localhost:3000/api/session').then(({ data }) => {
+  //       return data.map((session) => {
+  //         return `/session/${session.slug}`
+  //       })
+  //     })
+  //   }
+  // }
 }

@@ -1,0 +1,17 @@
+[{
+    "id": 1,
+    "name": "Greg Lindeman",
+    "bio": "<p>Greg Lindeman is a self taught / coding-bootcamp survivor. After graduating from Texas Tech in 2012 as a triple major (History/Political Science/Psychology) I went off to work abroad in Suzhou, China for three years. While in Suzhou I taught myself how to program in Python. Loving this new world I entered, I decided to head to Akron to attend the Software Guild and attend the Java bootcamp. After graduating I went back to China to work as a web developer for 31ten in Shanghai working mostly in PHP.</p><p>Since 2016 I have been working at Jakprints as one of the Software developers on the team. I also work at the Case Western Reserve University Coding Bootcamp as a TA for the Part Time Full Stack Flex program, which focuses on Javascript, Node, and React.Today I mostly find myself working in PHP, C#, vue.js and d3.js. However on my free time I am learning Artificial Intelligence with Python.</p>"
+}, {
+    "id": 2,
+    "name": "Joe Erickson",
+    "bio": "<p>Joe Erickson is a web programmer that has been building internet applications for Fortune 100 and small businesses alike for over 20 years. He has built production ready applications in Java, PHP, Perl, C++, Ruby, and JavaScript. Joe is a curriculum developer at Tech Elevator in Cleveland, OH.</p>"
+}, {
+    "id": 3,
+    "name": "Ben Hoffmann",
+    "bio": "<p>Ben Hoffmann is the Digital Lead for the EY Strategy & Analysis team, which develops strategy, competitive intelligence, financial planning and analytics for the firm. Ben has worked at EY in a variety of capacities including web development, marketing technology and creative agency management.</p>"
+}, {
+    "id": 4,
+    "name": "Jessie Barnett",
+    "bio": "<p>Jessie Barnett is a Senior Fullstack Engineer and the technical lead for frontend development at Axuall, Inc. Jessie developed a passion for programming after teaching herself HTML, CSS, and JavaScript to make her own Sailor Moon fansite in fifth grade. She began her professional career as an engineer 8 years ago, and primarily works with Golang, Node, and Vue.</p>"
+}]
